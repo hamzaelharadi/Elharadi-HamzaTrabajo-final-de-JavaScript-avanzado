@@ -13,7 +13,7 @@ function cargarArticolos(){
 
 
 
-    request.open('GET' , 'articolosinfo.xml' , true);
+    request.open('GET' , 'data/articolosinfo.xml' , true);
     request.send();
 
 
