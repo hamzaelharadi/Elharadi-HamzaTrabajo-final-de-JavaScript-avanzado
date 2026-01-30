@@ -24,7 +24,7 @@ function cargarArticolos(){
 function mostrarArticolos(elem){
     // creamos una varaible donde almacenamos response
     let archivo = elem.responseXML;
-
+     
 
     // llamamos a los elementos que hay en archivo XML
     let marca = archivo.getElementsByTagName('marca');
