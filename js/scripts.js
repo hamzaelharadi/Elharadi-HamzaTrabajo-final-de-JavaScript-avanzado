@@ -94,12 +94,12 @@ $(document).ready(function () {
 
     // Array de imágenes (puedes añadir tantas como quieras)
     const images = [
-        "/assets/images/categoryvisual.png",
-        "/assets/images/categoryvisual.png",
-        "/assets/images/collection1.png",
-        "/assets/images/collection2.png",
-        "/assets/images/collection3.png",
-        "/assets/images/collection4.png"
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/categoryvisual.png",
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/categoryvisual.png",
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/collection1.png",
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/collection2.png",
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/collection3.png",
+        "/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/assets/images/collection4.png"
     ];
 
     // Generar galería dinámicamente
