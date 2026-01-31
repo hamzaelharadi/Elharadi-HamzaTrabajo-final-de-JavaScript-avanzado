@@ -660,6 +660,11 @@ color:black;
   z-index: 1;
   transition: var(--main-transition);
 }
+@media(max-width:991px){
+  .main-title{
+    font-size: 18px;
+  }
+}
 .main-title::before,
 .main-title::after {
   content: "";
