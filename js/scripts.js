@@ -35,10 +35,7 @@ function mostrarArticolos(elem){
 
     
     
-    //   //limpiamos 
-    //     document.getElementById('nombre').innerHTML = "";
-    //     document.getElementById('description').innerHTML ="";
-    //     document.getElementById('precio').innerHTML = "";
+ 
 
             let nombre = document.getElementById('articolos').querySelectorAll('.nombre');
              let elementParafo = document.getElementById('articolos').querySelectorAll('.description');   
