@@ -722,52 +722,7 @@ color:black;
     height: 100%;
   }
 }
-/* 
-@media(max-width:991px){
 
-  .main-title:hover::before {
-  z-index: -1;
-  animation: left-move 0.5s linear forwards;
-}
-.main-title:hover::after {
-  z-index: -1;
-  animation: right-move 0.5s linear forwards;
-}
-  .main-title:hover {
-  color: white;
-  border: 2px solid white;
-  transition-delay: 0.5s;
-}
-
-@keyframes left-move {
-  50% {
-    left: 0;
-    width: 12px;
-    height: 12px;
-  }
-  100% {
-    left: 0;
-    border-radius: 0;
-    width: 50%;
-    height: 100%;
-  }
-}
-@keyframes right-move {
-  50% {
-    right: 0;
-    width: 12px;
-    height: 12px;
-  }
-  100% {
-    right: 0;
-    border-radius: 0;
-    width: 50%;
-    height: 100%;
-  }
-}
-
-
-} */
 /* FEN DE STILO MAIN TITLE  */
 
 /* INCIO DE FOOTER  */
@@ -1378,6 +1333,15 @@ font-size: 13px;
 /********************** Fen de style de la pajina de  Contact  *******/
 
 /********************* INCIO EL STIELO LA PAJINA GALLERY **********************/
+
+
+
+@media(max-width:991px){
+  .inbox{
+    margin-top: 200px;
+  }
+}
+
 .top-gallery .contenidor{
   margin-top: 100px;
   margin-bottom: 100px;
