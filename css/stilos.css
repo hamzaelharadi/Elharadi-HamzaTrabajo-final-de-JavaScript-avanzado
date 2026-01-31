@@ -846,7 +846,7 @@ text-align: center;
 /******************    --  INCIO DE STELO DE LA PREMERA PARTIE --  ****************/
 
 .formulario {
-  
+  margin-top: 150px;
   width: 80%;
   margin: 60px auto;
   display: flex;
