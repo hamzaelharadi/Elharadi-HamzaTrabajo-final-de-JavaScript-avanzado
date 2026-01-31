@@ -161,6 +161,11 @@ body{
 .landing{
   position: relative;
 }
+@media(max-width:991px){
+  .landing{
+  margin-top: 150px;
+}
+}
 /* .landing ::before  Ese espacio significa “cualquier elemento dentro de .landing que tenga*/
 .landing::before{
   content: "";
@@ -253,6 +258,12 @@ bottom: 30px;
 left: 50%;
 transform: translateY(-50%);
 transition: var(--main-transation);
+}
+
+@media(max-width:991px){
+ .landing .bajar-down{
+  bottom: -80px;
+ } 
 }
 
 .landing .bajar-down:hover {
