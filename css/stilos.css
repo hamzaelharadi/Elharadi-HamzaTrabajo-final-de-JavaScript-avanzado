@@ -75,6 +75,7 @@ body{
   -webkit-box-shadow:0 0 10px #ddd ;
   -moz-box-shdow: 0 0 10px #ddd;
   box-shadow: 0 0 10 #ddd;
+  position: fixed;
 }
 .header .contenidor {
   
