@@ -14,4 +14,21 @@ La estructura del proyecto sigue estándares profesionales, con carpetas organiz
 Este sitio demuestra el dominio de técnicas avanzadas de programación web, validación de formularios, manipulación del DOM, integración de APIs externas y diseño responsivo, ofreciendo un resultado completo, funcional y alineado con las exigencias del desarrollo web actual.
 
 
+Estructura del proyecto
 
+
+TRABAJOFINAL 
+│__assets/images
+├── css/
+├── data/articolosinfo/
+├── js/
+├── webfonts/
+├── views/
+│   ├── contacto.html
+│   ├── presupuesto.html
+│   ├── galeria.html
+│
+└── index.html
+
+Nota : No podría poner la carpeta webfonts en la carpeta assets.
+       Si lo pongo, no se muestran los iconos. 
