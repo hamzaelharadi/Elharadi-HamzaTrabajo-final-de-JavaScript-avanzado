@@ -71,11 +71,12 @@ body{
 /* Inicio de headrer */
 .header{
   background-color: white;
-  position: relative;
   -webkit-box-shadow:0 0 10px #ddd ;
   -moz-box-shdow: 0 0 10px #ddd;
   box-shadow: 0 0 10 #ddd;
   position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 .header .contenidor {
   
