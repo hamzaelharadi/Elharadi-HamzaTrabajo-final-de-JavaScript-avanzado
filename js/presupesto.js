@@ -59,7 +59,7 @@ let regNombre = /^[a-zA-Z ]{2,20}$/;
 let regApellido = /^[a-zA-Z ]{2,20}$/;
 let regTelephon = /^\d{9}$/;
 let regDireccion = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-let regnumeroDia =/^\d{1}$/;
+let regnumeroDia =/^\d{2}$/;
 
 function validainput(input,regex){
     
