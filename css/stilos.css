@@ -656,7 +656,7 @@ padding: 10px;
     text-align: center;
 }
 
-.noticias.encludor .cajas {
+.noticias .encludor .cajas {
   padding: 10px;
   display: flex;
   flex-direction: row;
