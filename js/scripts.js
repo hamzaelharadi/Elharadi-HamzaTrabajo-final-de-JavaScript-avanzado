@@ -33,9 +33,9 @@ function mostrarArticolos(elem){
 
 
     // llamamos a los elemontos de section noticias
-    let title = document.getElementById('.titulo')
-    let parragrafo = document.getElementById('.parragrafo');
-    let fecha = document.getElementById('.fecha');
+    let title = document.getElementById('titulo')
+    let parragrafo = document.getElementById('parragrafo');
+    let fecha = document.getElementById('fecha');
     
  
 
