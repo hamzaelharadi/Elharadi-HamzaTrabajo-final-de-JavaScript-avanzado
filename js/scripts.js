@@ -13,7 +13,7 @@ function cargarArticolos(){
 
 
 
-    request.open('GET' , 'data/articolosinfo.xml' , true);
+    request.open('GET' , 'data/noticias.xml' , true);
     request.send();
 
 
@@ -27,31 +27,29 @@ function mostrarArticolos(elem){
      
 
     // llamamos a los elementos que hay en archivo XML
-    let marca = archivo.getElementsByTagName('marca');
-    let description = archivo.getElementsByTagName('description');
-    let precio = archivo.getElementsByTagName('precio');
-    let categoria = archivo.getElementsByTagName('categoria');
-    let collection = archivo.getElementsByTagName('collection');
+    let titlexml = archivo.getElementsByTagName('titulo');
+    let descriptionxml = archivo.getElementsByTagName('description');
+    let fechaxml = archivo.getElementsByTagName('fecha');
 
-    
+
+    // llamamos a los elemontos de section noticias
+    let title = document.querySelectorAll('.titulo')
+    let parragrafo = document.querySelectorAll('.parragrafo');
+    let fecha = document.querySelectorAll('.fecha');
     
  
 
-            let nombre = document.getElementById('articolos').querySelectorAll('.nombre');
-             let elementParafo = document.getElementById('articolos').querySelectorAll('.description');   
-             let elementh4 =   document.getElementById('articolos').querySelectorAll('.eee');
-
-             let categoriaclassH4 = document.getElementById('top-Category').querySelectorAll('.java');
-             let collectionselect = document.getElementById('top-contenidor').querySelectorAll('.collecion');
-
+       for(let i = 0 ; i<titlexml.length ; i++){
         
+            title[i].textContent = titlexml[i].textContent;
+            parragrafo[i].textContent = descriptionxml[i].textContent;
+            fecha[i].textContent = fechaxml[i].textContent;
 
-            loops(nombre,marca);
-            loops(elementParafo,description);  
-            loops(elementh4,precio);
 
-            loops(categoriaclassH4,categoria);
-            loops(collectionselect,collection);
+     }
+
+
+ 
             
 
 
@@ -68,15 +66,6 @@ function mostrarArticolos(elem){
 }
 
 cargarArticolos();
-
-function loops(elemdiv, tagxml){
-   for(let i = 0 ; i<tagxml.length ; i++){
-        
-            elemdiv[i].textContent = tagxml[i].textContent;
-
-     }
-}
-
 
 
 
