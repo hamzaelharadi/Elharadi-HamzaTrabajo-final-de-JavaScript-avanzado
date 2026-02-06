@@ -42,9 +42,9 @@ function mostrarArticolos(elem){
        for(let i = 0 ; i<titlexml.length ; i++){
                 // loop += "ciudad: <strong>" + nombre[i].childNodes[0].nodeValue + "</strong> <br>" ;
 
-            title[i] = titlexml[i].textContent;
-            parragrafo[i] = descriptionxml[i].textContent;
-            fecha[i] = fechaxml[i].textContent;
+            title[i] = titlexml[i].childNodes[0].nodeValue;
+            parragrafo[i] = descriptionxml[i].childNodes[0].nodeValue;
+            fecha[i] = fechaxml[i].childNodes[0].nodeValue;
 
 
      }
