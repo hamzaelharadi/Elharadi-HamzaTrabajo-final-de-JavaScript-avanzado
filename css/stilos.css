@@ -642,7 +642,7 @@ padding: 10px;
 .noticias{
    box-shadow: 5px 10px 20px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
-.encludor{
+.noticias .encludor{
   margin: 100px auto;
   padding: 20px;
   display: flex;  
@@ -651,12 +651,12 @@ padding: 10px;
 
 }
 
-.contenidor .descubrir h3 ,
-.contenidor .descubrir p{
+.noticias .encludor .descubrir h3 ,
+.noticias .encludor .descubrir p{
     text-align: center;
 }
 
-.contenidor .cajas {
+.noticias.encludor .cajas {
     
 
  
@@ -669,17 +669,17 @@ padding: 10px;
 
 
 
-.contenidor .cajas .caja .image img{
+.noticias .encludor .cajas .caja .image img{
     width: 100%;
 }
 
-.contenidor .cajas .caja .title{
+.noticias .encludor .cajas .caja .title{
     margin: 10px auto;
     padding-left: 20px;
     padding-right: 20px;
     
 }
-.contenidor .cajas .caja .parragrafo{
+.noticias .encludor .cajas .caja .parragrafo{
     margin: 0px auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -688,14 +688,14 @@ padding: 10px;
      border-bottom: 1px solid #efefef;
 }
 
-.contenidor .cajas  .caja .fecha{
+.noticias .encludor .cajas  .caja .fecha{
     margin-left: 10px;
     padding: 10px;
     color: #a5a3a3;
 }
 
 @media(max-width : 991px){
-    .contenidor .cajas{
+   .noticias .encludor .cajas{
         display: flex;
         flex-direction: column;
         gap: 20px;
