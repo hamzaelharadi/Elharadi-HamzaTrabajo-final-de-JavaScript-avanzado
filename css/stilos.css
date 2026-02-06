@@ -634,6 +634,89 @@ padding: 10px;
 
 /* *********************** FEN  SECTION COLLETION ****************************************  */
 
+
+/* ****************************** INICIO DE SECCION DE NOTICIAS ***************************** */
+
+
+
+.noticias{
+   box-shadow: 5px 10px 20px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.contenidor{
+  margin: 100px auto;
+  padding: 20px;
+  display: flex;  
+  flex-direction: column;    
+  gap: 20px; 
+
+}
+
+.contenidor .descubrir h3 ,
+.contenidor .descubrir p{
+    text-align: center;
+}
+
+.contenidor .cajas {
+    
+
+ 
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
+
+
+.contenidor .cajas .caja .image img{
+    width: 100%;
+}
+
+.contenidor .cajas .caja .title{
+    margin: 10px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.contenidor .cajas .caja .parragrafo{
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+     border-top: 1px solid #efefef;
+     border-bottom: 1px solid #efefef;
+}
+
+.contenidor .cajas  .caja .fecha{
+    margin-left: 10px;
+    padding: 10px;
+    color: #a5a3a3;
+}
+
+@media(max-width : 991px){
+    .contenidor .cajas{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************** FEN DE SECCION DE NOTICIAS ******************************** */
+
+
+
+
 /* ********************* INCIO DE CONTACTOS ********************** */
 .contacto{
   width: 100%;
