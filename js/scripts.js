@@ -33,18 +33,18 @@ function mostrarArticolos(elem){
 
 
     // llamamos a los elemontos de section noticias
-    let title = document.getElementById('titulo')
-    let parragrafo = document.getElementById('parragrafo');
-    let fecha = document.getElementById('fecha');
+    let title = document.querySelectorAll('.title')
+    let parragrafo = document.querySelectorAll('.parragrafo');
+    let fecha = document.querySelectorAll('.fecha');
     
  
 
        for(let i = 0 ; i<titlexml.length ; i++){
-                // loop += "ciudad: <strong>" + nombre[i].childNodes[0].nodeValue + "</strong> <br>" ;
+              
 
-            title[i] = titlexml[i].childNodes[0].nodeValue;
-            parragrafo[i] = descriptionxml[i].childNodes[0].nodeValue;
-            fecha[i] = fechaxml[i].childNodes[0].nodeValue;
+            title[i].innerHTML = titlexml[i].childNodes[0].nodeValue;
+            parragrafo[i].innerHTML = descriptionxml[i].childNodes[0].nodeValue;
+            fecha[i].innerHTML = fechaxml[i].childNodes[0].nodeValue;
 
 
      }
