@@ -176,7 +176,7 @@ body{
   height: 100%;
   background-color: #ececec;
   z-index: -1;
-  transform: skewY(-10deg);
+  transform: skewY(-7deg);
   transform-origin: top left;
 
 
