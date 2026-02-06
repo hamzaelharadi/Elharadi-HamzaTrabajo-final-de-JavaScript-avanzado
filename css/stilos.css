@@ -642,7 +642,7 @@ padding: 10px;
 .noticias{
    box-shadow: 5px 10px 20px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
-.contenidor{
+.encludor{
   margin: 100px auto;
   padding: 20px;
   display: flex;  
