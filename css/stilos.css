@@ -1414,7 +1414,7 @@ font-size: 13px;
 
 /********************* INCIO EL STIELO LA PAJINA GALLERY **********************/
 
-.continedor .img {
+.contenidor.img {
     border-radius: 10px;
     width: 400px;
     height: 250px;
@@ -1423,7 +1423,7 @@ font-size: 13px;
 }
 
 
-.continedor .img:hover{
+.contenidor .img:hover{
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
@@ -1434,5 +1434,5 @@ font-size: 13px;
 @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
-}
+} 
 /* FEN EL STIELO LA PAJINA GALLERY   */
