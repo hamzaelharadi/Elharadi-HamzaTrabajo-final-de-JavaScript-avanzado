@@ -1414,69 +1414,25 @@ font-size: 13px;
 
 /********************* INCIO EL STIELO LA PAJINA GALLERY **********************/
 
-
-
-@media(max-width:991px){
-  .inbox{
-    margin-top: 200px;
-  }
-}
-
-.top-gallery .contenidor{
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.main-title{
-  margin-top: 100px;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
-    height: 700px;
-}
-@media(max-width:991px){
-  .gallery {
-    height: 250vh;
-  }
-}
-
-.gallery img {
-    width: 100%;
-    height: 300px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform .2s;
-}
-
-.gallery img:hover {
-    transform: scale(1.05);
-}
-
-/* Lightbox */
-.lightbox {
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.8);
-    justify-content: center;
-    align-items: center;
-}
-
-.lightbox img {
-    max-width: 80%;
-    max-height: 80%;
+.continedor .img {
     border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    margin: 20px;
+  
 }
 
-.lightbox .close {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    font-size: 40px;
-    color: white;
-    cursor: pointer;
+
+.continedor .img:hover{
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 /* FEN EL STIELO LA PAJINA GALLERY   */
