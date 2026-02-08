@@ -1413,8 +1413,12 @@ font-size: 13px;
 /********************** Fen de style de la pajina de  Contact  *******/
 
 /********************* INCIO EL STIELO LA PAJINA GALLERY **********************/
+.top-galeria{
+  width: 80%;
+}
 
-.contenidor .img {
+
+.contenidor .top-galeria .img {
     border-radius: 10px;
     width: 400px;
     height: 250px;
@@ -1423,7 +1427,7 @@ font-size: 13px;
 }
 
 
-.contenidor .img:hover{
+.contenidor .top-galeria .img:hover{
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
