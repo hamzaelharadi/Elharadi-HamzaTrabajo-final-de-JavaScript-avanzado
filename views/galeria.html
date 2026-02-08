@@ -18,7 +18,10 @@
 
 <!-- Normaliz  -->
 <link rel="stylesheet" href="/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/css/normalize.css" /> 
-<!-- enlace stelo css  -->
+<!-- enlace de stilos de lightbox -->
+<link rel="stylesheet" href="/css/lightbox.css">
+
+<!-- enlace stilos css  -->
 <link rel="stylesheet" href="/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/css/stilos.css">
     <title>Galeria</title>
 </head>
@@ -41,22 +44,24 @@
         </div>
     </header>
 <!-- FEN DE HEADER  --> 
+
+
 <!-- INICIO SECTION GALERIA  -->
-    <div class="inbox">
-    <h2 class="main-title">Galeria</h2>
-    <div class="top-gallery">
-    <div class="contenidor">
-    <div id="gallery" class="gallery"></div>
 
-    <!-- Lightbox -->
-    <div id="lightbox" class="lightbox">
-        <span class="close">×</span>
-        <img id="lightbox-img" src="/images/categoryvisual.png" alt="jequery">
-    </div>
-    </div>
-    </div>
-    </div>
 
+        <div class="continedor">
+
+        <a href="../" data-lightbox="galeria" data-title="presage"><img class="img" src="/images/galeria/collection2.png"></a>
+        <a href="/images/galeria/collection3.png" data-lightbox="galeria" data-title="Prospex"><img class="img"  src="/images/galeria/collection3.png"></a>
+        <a href="/images/galeria/collection4.png" data-lightbox="galeria" data-title="Astron"><img class="img" src="/images/galeria/collection4.png"></a>
+        <a href="/images/galeria/collection2.png" data-lightbox="galeria" data-title="presage"><img class="img"  src="/images/galeria/collection2.png"></a>
+        <a href="/images/galeria/collection3.png" data-lightbox="galeria" data-title="Prospex"><img class="img"  src="/images/galeria/collection3.png"></a>
+        <a href="/images/galeria/collection4.png" data-lightbox="galeria" data-title="Astron"><img class="img" src="/images/galeria/collection4.png"></a>
+        <a href="/images/galeria/collection3.png" data-lightbox="galeria" data-title="Prospex"><img class="img"  src="/images/galeria/collection3.png"></a>
+        <a href="/images/galeria/collection4.png" data-lightbox="galeria" data-title="Astron"><img class="img" src="/images/galeria/collection4.png"></a>
+        <a href="/images/galeria/collection4.png" data-lightbox="galeria" data-title="Astron"><img class="img" src="/images/galeria/collection4.png"></a>
+
+         </div>  
 <!-- FEN SECTION GALERIA  -->
 
 
@@ -106,7 +111,15 @@
 <!-- FEN DE FOOTER   -->
 
  <!-- ENLACE GALERIA DE LA PAJINA GALERIA  -->
-<script src="/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/js/galeria.js"></script>
+<!-- <script src="/Elharadi-HamzaTrabajo-final-de-JavaScript-avanzado/js/galeria.js"></script> -->
+ <script src="/js/lightbox-plus-jquery.js"></script>
+
+ <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
 
 </body>
 </html>
