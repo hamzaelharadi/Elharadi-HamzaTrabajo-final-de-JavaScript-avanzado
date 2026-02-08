@@ -1414,7 +1414,7 @@ font-size: 13px;
 
 /********************* INCIO EL STIELO LA PAJINA GALLERY **********************/
 
-.contenidor.img {
+.contenidor .img {
     border-radius: 10px;
     width: 400px;
     height: 250px;
