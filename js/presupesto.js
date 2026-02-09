@@ -213,7 +213,7 @@ let precioDeProducto = parseFloat(precioProducto);
         
     });
    
-    // // Descuento: 2% por cada mes
+    //  Descuento: 2% por numero de plazo
     let descuento = precioDeProducto * (0.02 * (plazo - 1));
     
     if (descuento < 0) descuento = 0;
