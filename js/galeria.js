@@ -1,8 +1,7 @@
 
-// incorporar  galería dinámica con jQuery pajina Galeria.html
 
 
-// INCIO DE CODE DE PAJINA GALERRY CON JQUERY
+// cambiar alguna de las opciones predeterminadas de Lightbox
 
 
     lightbox.option({
